@@ -1,0 +1,111 @@
+.onny-logo-container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media print {
+html *
+{
+  /* font-size: 1em !important; */
+  color: #000 !important;
+  font-family: Arial !important;
+  font-weight: bold !important;
+}
+
+body > main > .container > section > .card:first-of-type h1:first-of-type {
+  background-color: white !important;
+}
+
+header {
+  display: block !important;
+}
+
+.navbar {
+  box-shadow: none !important;
+}
+
+main .container, .card-body, .container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+body > main > .container > section > .card, .theme--light.v-application
+{
+  background-color: white !important;
+}
+
+#ticket-order h1 {
+  font-size: medium;
+}
+
+.perfTitle * {
+  white-space: unset !important;
+}
+
+.card-body {
+  font-size: medium !important;
+}
+
+.fs-5 {
+  font-size: 1rem!important
+}
+
+.row {
+  --mdb-gutter-x: 0px !important;
+}
+
+.title-bar {
+  font-size: medium !important;
+  border: none !important;
+}
+
+
+@media (max-width: 500px) {
+  .qrDiv {
+    width: 100% !important;
+  }
+  .qrImage {
+    width: 100% !important;
+    height: unset !important;
+    max-width: 400px !important;
+  }
+
+  .ticketInfoDiv {
+    margin-top: 10em !important;
+  }
+
+  .onny-logo-container {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .navbar-brand img {
+    max-height: 100% !important;
+  }
+
+  .col-4 {
+    width: 50% !important;
+  }
+
+  .col-8 {
+    width: 50% !important;
+  }
+}
+
+
+
+
+}
+
+@media (min-width: 501px) {
+  .onny-logo-container {
+    max-width: 300px;
+  }
+  .navbar-brand img {
+    max-height: 300px !important;
+  }
+}
