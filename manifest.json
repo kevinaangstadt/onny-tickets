@@ -13,13 +13,5 @@
       ],
       "css": ["onny.css"]
     }
-  ],
-  "web_accessible_resources": [
-    {
-      "matches": [
-        "http://*/*", 
-        "https://*/*"
-      ]
-    }
   ]
 }
