@@ -1,7 +1,7 @@
 {
   "name": "ONNY Ticket Formatter",
   "description": "Format ONNY tickets on Eventgroove for receipt printing",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 3,
   "content_scripts": [
     {
@@ -9,9 +9,14 @@
         "http://*.eventgroove-beta.com/pos/*", 
         "https://*.eventgroove-beta.com/pos/*", 
         "http://*.myeventscenter.com/pos/*", 
-        "https://*.myeventscenter.com/pos/*"
+        "https://*.myeventscenter.com/pos/*",
+        "http://*.eventgroove-beta.com/dash/*", 
+        "https://*.eventgroove-beta.com/dash/*", 
+        "http://*.myeventscenter.com/dash/*", 
+        "https://*.myeventscenter.com/dash/*"
       ],
-      "css": ["onny.css"]
+      "css": ["onny.css"],
+      "all_frames": true
     }
   ]
 }
